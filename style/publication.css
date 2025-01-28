@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main .books{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+main .book-01 img{
+width: 650px;
+}
+main .book-02 img{
+    width: 650px;
+    }
+main .book-01{
+    border: 1px solid gray;
+    display: inline-block;
+}
+main .book-02{
+    border: 1px solid gray;
+    display: inline-block;
+}
+main .list{
+    margin-top: 80px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+main .list h1{
+    font-family: apercu;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+main .list li{
+    font-size: 13px;
+    color: #808080;
+}
+main .list .list-head{
+    font-size: 1.6rem;
+    color: #fff;
+}

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --grey: #0f0f0f;
+}
+/*
+red
+white
+black
+green
+#0f0f0f
+*/
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-red {
+    background-color: red;
+    background-color: var(--red);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-grey {
+    background-color: var(--grey);
+}
+.text-red {
+    color: var(--red);
+}
+.text-white {
+    color: var(--white);
+}
+.text-black {
+    color: var(--black);
+}
+.text-green {
+    color: var(--green);
+}
+.text-grey {
+    color: var(--grey);
+}
+
+/* flexbox classes */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+
+.flex-column{
+    flex-direction: column;
+} 
+
+.flex-row{
+    flex-direction: row;
+}
+
+
+/* margin classes */
+
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+.m-5{
+    margin: 25px;
+}
+
+.border{
+    border: 1px solid var(--white);
+}
+
+.rounded{
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* background colors started*/
+
+:root {
+    --black:#000000;
+    --white:#ffffff;
+    --green:#00a659;
+    --gray:#757575;
+    --red:#f02520;
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-gray {
+    background-color: var(--gray);
+}
+.bg-red {
+    background-color: var(--red);
+}
+
+/* background color ended */
+
+
+/* text colors started */
+
+.text-black {
+    color: var(--black);
+}
+.text-white {
+    color: var(--white);
+}
+.text-green {
+    color: var(--green);
+}
+.text-gray {
+    color: var(--gray);
+}
+.text-red {
+    color: var(--red);
+}
+
+/* text color ended */
+
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-arround {
+    justify-content: space-around;
+}
+.justify-start {
+    justify-content: start;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: end;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-style-0 {
+    text-decoration: none;
+}
+
+.gap-10 {
+    gap: 10px
+}
+.gap-15 {
+    gap: 15px
+}
+.gap-20 {
+    gap: 20px
+}
+.gap-25 {
+    gap: 25px
+}
+.gap-30 {
+    gap: 30px
+}
+.gap-50 {
+    gap: 50px;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.border {
+    border: 1px solid var(--white);
+}
+.rounded {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.paddingtop-15 {
+    padding-top: 15px;
+}
+
+.padd-left {
+    padding-right: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.no-style {
+    text-decoration: none;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.text-start {
+    text-align: start;
+}
+.text-left {
+    text-align: left;
+}
+.font-2 {
+    font-size: 2rem;
+}
+.align-center {
+    align-items: center;
+}
+.font-3 {
+    font-size: 3rem;
+}
+.no-style-list {
+    list-style: none;
+    
+}
+.gray-border {
+    border: 1px solid gray;
+}
+.p-50 {
+    padding:0px 50px;
+  
+}
+
+.mx-300 {
+    margin: 0px 300px;
+}
+.font-1 {
+    font-size: 1rem;
+}
